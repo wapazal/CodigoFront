@@ -1,0 +1,61 @@
+body{
+    background-color: darkblue;
+    font-family: "Outfit", sans-serif;
+
+}
+
+#contenedor{
+    background-color: darkcyan;
+    width: 50%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.img__principal{
+    border-radius: 10px;
+}
+
+.contenedor__imagen{
+    text-align: center;
+}
+
+h4{
+    color: #fff;
+}
+
+.texto_principal{
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+
+}
+span{
+    font-size: 12px;
+}
+
+.contenedor_secundario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moneda{
+    color: rgb(82, 22, 3);
+}
+
+.dias{
+    color: yellow;
+}
+
+.linea{
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.imagen_avatar{
+    border: solid 1px #fff;
+    border-radius: 50%;
+
+}
+

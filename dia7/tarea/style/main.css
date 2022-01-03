@@ -1,0 +1,224 @@
+/*
+GLOBAL
+estilos globales, aca ira los selectores de 
+etiquetas globales
+*/
+body {
+    font-size: 16px;
+    font-family: arial;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 25px;
+  }
+  
+
+  /*HEADER
+  aca iran estilos del header
+  */
+  .header{
+    background: green;
+    height: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Centra en Vertical*/
+    margin-bottom: 20px;
+
+}
+
+.header .logo{
+    font-size: 50px;
+}
+
+.header ul{
+    display: flex;
+
+}
+
+.header li{
+  margin: 15px;
+  
+
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+  /*
+  HOME
+  aca iran estilos de la seccion home*/
+.section_home h2{
+  color: blue;
+font-weight: bold;
+}
+
+    .figure_home{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  
+  .art_home p{
+    padding: 25px;
+  }
+  
+
+  /*
+  SERVICIOS
+  aca iran estilos de la seccion servicios*/
+  .section_servicios h2{
+    color: rgb(255, 16, 183);
+  font-weight: bold;
+  }
+  .section_servicios h2{
+    margin-bottom: 16px;
+  }
+    .figure_servicios{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .section_servicios{
+    margin-bottom: 16px;
+  }
+
+  .section_servicios p{
+    margin-bottom: 16px;
+  }
+
+.figure_servicios{
+  margin-bottom: 16px;
+}
+
+.art_servicios p{
+  padding: 25px;
+}
+
+.list_servicios{
+  padding:35px;
+  list-style-type:disc;
+ 
+}
+
+.list_servicios a{
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+.list_servicios li{
+  line-height: 30px;
+}
+
+.list_servicios  li:nth-child(1) a{
+  color: rgb(229, 255, 0);
+  }
+
+  /*
+  PORTAFOLIO
+  aca iran estilos de la seccion portafolio*/
+  .section_portafolio h2{
+    margin-bottom: 20px;
+    color: greenyellow;
+    font-weight: bold;
+  }
+    .figure_portafolio{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .section_portafolio{
+    margin-bottom: 16px;
+  }
+
+  .section_portafolio p{
+    margin-bottom: 16px;
+  }
+
+.figure_portafolio{
+  margin-bottom: 16px;
+}
+
+.art_portafolio p{
+  padding: 25px;
+}
+
+.list_portafolio{
+  padding: 35px;
+  list-style-type:disc;
+ 
+}
+
+.list_portafolio a{
+  text-decoration: none;
+  outline: none;
+}
+
+.list_portafolio li{
+  line-height: 30px;
+}
+.list_portafolio  li:nth-child(1){
+  color: rgb(229, 255, 0);
+  }
+
+.list_portafolio  li:nth-child(2){
+  color: red;
+    }
+
+.list_portafolio  li:nth-child(3){
+  color:blue;
+      }
+
+.list_portafolio  li:nth-child(4){
+        color:green;
+        }
+
+
+
+
+
+  /*
+  CONTACTO
+  aca iran estilos de la seccion contacto*/
+  .section_contacto h2{
+    margin-bottom: 20px;
+    color: turquoise;
+    font-weight: bold;
+  }
+.form_contacto{
+  padding: 20px;
+}
+
+.art_contacto p{
+  padding: 25px;
+}
+
+  /*
+  FOOTER
+  aca iran estilos de la seccion footer*/
+
+  .section_footer{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.section_footer a{
+  text-decoration: none;
+  outline: none;
+  color: white;
+
+}
